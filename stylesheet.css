@@ -67,7 +67,7 @@ li {
   font-weight: bold;
   padding: 10px;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 10000px) {
 /* スマホではスライダーで表示 */
   .slide-wrap {
     overflow-x: scroll;
