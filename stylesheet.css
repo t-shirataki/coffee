@@ -80,7 +80,6 @@ li {
     width: 600px;
     border: 1px solid #ddd;
     background: #fff;
-    float:left;
 }
 .scroll_item:first-child {
     margin-left: 10px;
