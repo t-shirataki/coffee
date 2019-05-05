@@ -40,7 +40,7 @@ li {
 }
 /* パソコンではタイル型で表示 */
 .slide-wrap {
-  background-color: #ccc;
+  background-color: #fff;
   display: flex;
   margin: 0 auto;
   max-width: 1080px;
@@ -48,7 +48,7 @@ li {
 }
 .slide-box {
   height: auto;
-  margin-right: 1%;
+  margin-right: 3%;
   width: 24%;
 }
 /* サムネイルとタイトルのスタイル調整 */
