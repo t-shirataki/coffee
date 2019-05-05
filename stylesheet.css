@@ -67,12 +67,12 @@ li {
 
   /* 見た目調整 */
   height: 400px;
-  margin: 16px 10px 16px 16px;
+  margin: 16px;
   font-size: 48px;
 }
 
 img{
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .footer {
