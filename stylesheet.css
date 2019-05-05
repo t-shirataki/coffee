@@ -40,12 +40,10 @@ li {
 }
 
 .contents {
-  height: 500px;
-  margin-top: 100px
-  overflow-x: auto;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-
+  background: #f1f1f1;
+  height: 700px;
+  overflow-y: hidden;
+  margin: 0 -10px;
 }
 
 .section-title {
@@ -53,28 +51,41 @@ li {
   font-size: 40px;
   padding-bottom: 15px;
   margin-bottom: 50px;
+  margin-left: 20px;
 }
 
-.contents-item {
-　/* 横スクロール用 */
-　display: inline-block;
-  width: 90%;
-
-  /* 見た目調整 */
-  height: 400px;
-  margin: 16px;
-　font-size: 48px;
-　background: rgba(255, 0, 0, 0.4);
+.scroll_lst {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 50px;
+  margin: 25px 0 0;
+  -webkit-overflow-scrolling: touch;
 }
-
-.contents-item p {
+.scroll_item_thum p {
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: auto;
+  white-space: normal;
 }
 
-.contents-item span{
+.scroll_item_thum span{
   font-size: 40px;
 }
+
+.scroll_item {
+    margin-right: 40px;
+    display: inline-block;
+    width: 600px;
+    border: 1px solid #ddd;
+    background: #fff;
+    float:left;
+}
+.scroll_item:first-child {
+    margin-left: 10px;
+}
+
 
 .contact-form {
   padding-top: 100px;
@@ -101,4 +112,3 @@ li {
 .footer-list li {
   padding-bottom: 20px;
 }
-
