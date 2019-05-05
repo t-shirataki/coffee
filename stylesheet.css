@@ -61,6 +61,7 @@ li {
   padding-bottom: 50px;
   margin: 25px 0 0;
   -webkit-overflow-scrolling: touch;
+  float:left;
 }
 .scroll_item_thum p {
   font-size: 30px;
