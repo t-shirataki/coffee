@@ -41,7 +41,7 @@ li {
 
 .contents {
   background: #f1f1f1;
-  height: 1500px;
+  height: 3000px;
   overflow-y: hidden;
   margin: 0 -10px;
 }
@@ -79,7 +79,6 @@ img{
   background-color: #2f5167;
   color: #fff;
   height: 120px;
-  padding: 40px;
 }
 
 .footer-logo {
