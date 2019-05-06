@@ -63,7 +63,7 @@ li {
 .item {
 /* 横スクロール用 */
   display: inline-block;
-  width: 90%;
+  width: 80%;
 
   /* 見た目調整 */
   height: 400px;
