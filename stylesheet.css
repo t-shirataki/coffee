@@ -71,6 +71,18 @@ li {
   margin:1px;
 }
 
+.item2 {
+/* 横スクロール用 */
+  display: inline-block;
+  width: 70%;
+
+  /* 見た目調整 */
+  height: 400px;
+  font-size: 48px;
+  margin:1px;
+}
+
+
 
 img{
   margin-left: 20px;
