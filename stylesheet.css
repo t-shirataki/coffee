@@ -54,6 +54,9 @@ li {
   margin-left: 20px;
 }
 
+.contents div {
+  text-align: center;
+}
 .horizontal_scroll {
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
