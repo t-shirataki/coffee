@@ -25,6 +25,9 @@ li {
 
 .main {
   padding: 100px 80px;
+}
+
+.copy-container {
   background-image: url(bgi1.jpg);  
   background-repeat: no-repeat;  
   background-position: 50px 100px;  
