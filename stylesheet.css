@@ -27,19 +27,6 @@ li {
   padding: 100px 80px;
 }
 
-.copy-container {
-  background-image: url('bgi1.jpg');  
-  width: 220px;
-  height: 220px;
-  background-repeat: no-repeat;  
-  background-position: 50px 100px;  
-  background-size: cover;
-}
-
-.bg-image {
-  height: 100%;
-  beckground: raba(255, 255, 255, 0.5);
-}
 
 .copy-container h1 {
   font-size: 140px;
