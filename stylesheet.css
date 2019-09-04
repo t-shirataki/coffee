@@ -33,7 +33,7 @@ li {
   height: 220px;
   background-repeat: no-repeat;  
   background-position: 50px 100px;  
-  background-size: 300px;
+  background-size: cover;
 }
 
 .bg-image {
