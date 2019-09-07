@@ -38,6 +38,7 @@ li {
 div.slide-show {
     width: 960px; /* スライドショーの幅 */
     max-width: 100%; /* スマホで表示が欠けないように */
+    top: 90px;
 }
  
 .slide-show img { 
