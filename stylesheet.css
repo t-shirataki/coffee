@@ -92,7 +92,19 @@ div.slide-show {
 .slide-show img:nth-of-type(8) {
     animation-delay: 24s;
 }
- 
+
+.container h1 {
+  font-size: 140px;
+}
+
+.container h2 {
+  font-size: 60px;
+}
+
+.container span {
+  color: #ff4a4a;
+}
+
 .footer {
   width: 100%;
   height: 120px;
