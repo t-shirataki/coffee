@@ -109,6 +109,61 @@ div.slide-show {
   color: #ff4a4a;
 }
 
+.contents {
+  background: #f1f1f1;
+  position: relative;
+  overflow-y: hidden;
+  margin: 0 -10px;
+  width: 100%;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 40px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: large;
+}
+.horizontal_scroll {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 0 12px 8px;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* 画面幅が768px以上の場合、横スクロールを解除 */
+
+@media screen and (min-width: 768px) {
+  .horizontal_scroll {
+    overflow-x: inherit;
+    padding: 0 8px 6px; } }
+
+.horizontal_scroll > li {
+  width: 100%;
+  min-width: 140px; }
+
+@media screen and (min-width: 768px) {
+  .horizontal_scroll > li {
+    min-width: inherit; } }
+
+.horizontal_scroll > li:not(:last-child) {
+  margin-right: 5px; }
+
+.horizontal_scroll > li:last-child {
+  padding-right: 5px; }
+
+@media screen and (min-width: 768px) {
+  .horizontal_scroll > li:last-child {
+    padding-right: 0; } }
+
+.horizontal_scroll img {
+  vertical-align: bottom; }
+
 .footer {
   width: 100%;
   height: 120px;
