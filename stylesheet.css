@@ -93,6 +93,10 @@ div.slide-show {
     animation-delay: 24s;
 }
 
+.container {
+  text-align: center;
+}
+
 .container h1 {
   font-size: 140px;
 }
