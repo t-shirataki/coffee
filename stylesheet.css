@@ -131,40 +131,6 @@ div.slide-show {
   margin-right: 10px;
 }
 
-.new{
-	font-weight:bold;
-	font-family:'Helvetica', 'sans-serif';
-	position:relative;
-	display:block;
-	width:240px;
-	height:144px;
-	margin:40px;
-	overflow:visible;
-}
-.new:before,
-.new:after{
-	display:block;
-	position:absolute;
-	left:-10px;
-}
-.new:before{
-	content:"";
-	border:6px solid transparent;
-	border-top-color:#a1364f;
-	border-right-color:#a1364f;
-	top:32px;
-}
-.new:after{
-	content:"NEW!";
-	background:#c24760;
-	color:#fff;
-	padding:0 24px;
-	height:24px;
-	line-height:24px;
-	top:8px;
-	z-index:10;
-}
-
 .horizontal_scroll {
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
