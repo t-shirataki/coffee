@@ -127,7 +127,8 @@ div.slide-show {
 
 .title {
   text-align: center;
-  font-size: large;
+  font-size: 15px;
+  margin-right: 10px;
 }
 .horizontal_scroll {
   overflow-x: scroll;
